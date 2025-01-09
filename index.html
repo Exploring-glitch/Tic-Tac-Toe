@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>  
+    <title>TicTacToe Game</title>
+</head>
+<body class="bg-gradient-to-r from-green-200 to-green-300 text-center">
+    
+    <h1 class="text-center font-bold text-5xl underline my-10"> Tic Tac Toe </h1>
+
+    <div class="bg-green-800 w-80 h-72 mx-auto my-28 rounded-lg">
+
+        <h1 class="my-3 text-green-800"> Let's start!</h1>
+
+        <div>
+
+            <div class="flex gap-2 my-2 mx-14 text-3xl text-red-700">
+                <button class="bg-white rounded-lg w-16 h-16" ></button>
+                <button class="bg-white rounded-lg w-16 h-16" > </button>
+                <button class="bg-white rounded-lg w-16 h-16" > </button>
+            </div>
+           
+            <div class="my-2 mx-14 flex gap-2 text-3xl text-red-700">
+                <button class="bg-white rounded-lg w-16 h-16" > </button>
+                <button class="bg-white rounded-lg w-16 h-16"> </button>
+                <button class="bg-white rounded-lg w-16 h-16" > </button>    
+            </div>
+
+            <div class="my-2 mx-14 flex gap-2 text-3xl text-red-700">
+                <button class="bg-white rounded-lg w-16 h-16" > </button>
+                <button class="bg-white rounded-lg w-16 h-16" > </button>
+                <button class="bg-white rounded-lg w-16 h-16"></button>
+        </div>
+    </div>
+    <h1 id="winnertext" class="hidden text-xl text-white"></h1>
+    <div id="resetBtn">
+        <button class="my-20 bg-green-900 text-white rounded-xl p-2 pr-4 pl-4">Start Again!</button> 
+    </div>
+    <script src="app.js"></script> 
+</body>
+</html>
